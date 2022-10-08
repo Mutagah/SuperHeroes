@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  resources :hero_powers
+  resources :hero_powers,only:[:create]
   resources :powers,only:[:show,:index,:update]
   resources :heroes,only: [:show, :index]
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html

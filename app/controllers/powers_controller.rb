@@ -23,7 +23,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :invalid_record
     end
 
     def invalid_record
-        render json:{errors: "[validation errors]"},status: :unprocessable_entity
+        render json:{errors: ["validation errors"]},status: :unprocessable_entity
     end
     def power_params
         params.permit(:description)
