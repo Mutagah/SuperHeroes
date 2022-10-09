@@ -22,8 +22,4 @@ rescue_from ActiveRecord::RecordNotFound, with: :invalid_record
     def invalid_record
         render json: {errors: ["validation errors"]}, status: :unprocessable_entity
     end
-
-    # def unfound_response
-    #     render json: {errors: "The hero_id and the power_id does not exist"}
-    # end
 end
