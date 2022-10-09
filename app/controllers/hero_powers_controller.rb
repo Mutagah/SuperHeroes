@@ -6,7 +6,7 @@ rescue_from ActiveRecord::RecordNotFound, with: :invalid_record
         hero = Hero.find(heropower.hero_id)
         power = Power.find(heropower.power_id)
         if hero && power
-            heropower.save
+            heropower = HeroPower.create!(heropower_params)
             render json: hero,serializer: HeroheroSerializer,status: :created
         else
             invalid_record

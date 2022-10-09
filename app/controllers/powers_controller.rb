@@ -16,6 +16,7 @@ rescue_from ActiveRecord::RecordInvalid, with: :invalid_record
         power.update!(power_params)
         render json: power,status: :accepted
     end
+    
     private
 
     def unfound_response

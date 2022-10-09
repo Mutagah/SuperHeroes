@@ -37,7 +37,6 @@ power1 = Power.create(name:"super strength", description:"gives the wielder supe
 
 power2 = Power.create(name:"flight", description:"gives the wielder the ability to fly through the skies at supersonic speed")
 
-
 power3 = Power.create(name:"animal-human communication", description:"gives the weilder superhuman senses and strength, razor sharp claws, ability to communicate with squirrels")
 
 power4 = Power.create(name:"spidey-sense", description:"gives the weilder ability to cling to most surfaces, use interdimensional travel, ability to stand far above average human, allowing him/her to lift ten tons and to leap and move at incredible speeds with high accuracy")
