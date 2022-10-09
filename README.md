@@ -20,6 +20,7 @@ Superheroes is a backend application that hold models, controllers with actions 
 
 ## Link to live site
 
+                    `https://super-herow.herokuapp.com/heroes`
     
 
 ##  Copyright and License Information
